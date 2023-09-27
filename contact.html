@@ -87,7 +87,7 @@
           <h5 class="uppercase text-center">Let's work together!</h5>
 
           <div class="center-form">
-            <form>
+            <form onsubmit="return sendMail(this);">
               <input
                 type="text"
                 name="name"
@@ -186,5 +186,6 @@
         </div>
       </div>
     </footer>
+    <script src="assets/js/send-email.js"></script>
   </body>
 </html>
